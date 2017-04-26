@@ -10,6 +10,7 @@
 ```
   git push
   git push -f (Force)
+  git push -u origin HEAD (set upstream branch)
 ```
 
 #### Rebasing
