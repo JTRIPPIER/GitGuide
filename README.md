@@ -1,4 +1,24 @@
 # Git Reference
+A quick reference to some commonly used git commands.
+
+#### Set up a new repo using existing code base
+``` 
+  git init
+  git add .
+  git commit
+```
+
+#### Remove all changes
+``` 
+  git init
+  git add .
+  git commit
+```
+
+#### Set up a new branch
+``` 
+  git checkout -b <Branch-name>
+```
 
 #### Pulling
 ```
@@ -33,4 +53,14 @@ Force clean remove untracked files and directories
 Search the logs
 ```
   git log -S <search-string>
+```
+
+#### Remove all local changes and get the latest
+```
+  git ???
+```
+
+#### DESC
+```
+  CODE
 ```
