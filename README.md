@@ -64,6 +64,12 @@ Search the logs
 ```
   git checkout -- [filename.txt]
 ```
+#### Rename a branch
+```
+  git branch -m old_branch new_branch
+  git push origin :old_branch  
+  git push --set-upstream origin new_branch
+```
 
 #### DESC
 ```
