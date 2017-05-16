@@ -60,6 +60,11 @@ Search the logs
   git ???
 ```
 
+#### Undoing a change
+```
+  git checkout -- [filename.txt]
+```
+
 #### DESC
 ```
   CODE
