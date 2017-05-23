@@ -71,6 +71,13 @@ Search the logs
   git push --set-upstream origin new_branch
 ```
 
+#### Move local commit to another branch(from master)
+```
+  git rebase origin/master          -- to ensure you have the latest changes
+  git branch new_branch             -- create a new branch with the commits that are being kept
+  git reset --hard origin/master    -- remove changes from master branch
+```
+
 #### DESC
 ```
   CODE
