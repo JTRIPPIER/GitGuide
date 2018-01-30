@@ -2,7 +2,7 @@
 A quick reference to some commonly used git commands.
 
 #### Set up a new repo using existing code base
-``` 
+```Shell
   # create a repo
   git init
   
@@ -31,7 +31,8 @@ A quick reference to some commonly used git commands.
 ```
 
 #### Set up a new branch
-``` 
+```Shell
+  #create and checkout a new branch
   git checkout -b <Branch-name>
 ```
 
@@ -71,8 +72,9 @@ Search the logs
 ```
 
 #### Remove all local changes and get the latest
-```
-  git ???
+```Shell
+  #reset local changes to match the upstream branch
+  git reset --hard @{u}
 ```
 
 #### Undoing a change
