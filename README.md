@@ -3,9 +3,24 @@ A quick reference to some commonly used git commands.
 
 #### Set up a new repo using existing code base
 ``` 
+  # create a repo
   git init
+  
+  # add a git ignore file
+  
+  # commit changes
   git add .
-  git commit
+  git commit -m "initial commit"
+  
+  # set up the remote
+  # Use '/' not '\' when defining a location on a server
+  git remote add origin <location_of_remote>
+  
+  #Go to the location of the remote and create a bare repo
+  git init --bare
+  
+  #push changes
+  git push --set-upstream origin master
 ```
 
 #### Remove all changes
